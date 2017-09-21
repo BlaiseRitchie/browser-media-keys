@@ -21,6 +21,10 @@
     "include": "*.bandcamp.com"
   },
   {
+    "name": "play.pocketcasts.com",
+    "include": "*.play.pocketcasts.com"
+  },
+  {
     "name": "play.google.com",
     "include": "*.play.google.com"
   },
