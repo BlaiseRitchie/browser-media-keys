@@ -1,0 +1,45 @@
+{
+	"description": "Lets you control many popular website media players using the media keys on your keyboard.",
+	"manifest_version":2,
+	"name":"Media Keys",
+	"version":"1.0.3",
+  "homepage_url": "https://github.com/BlaiseRitchie/browser-media-keys/tree/master",
+  "icons": {
+		"48": "icon_48.png",
+		"64": "icon.png"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"*://*.youtube.com/*",
+				"*://*.pandora.com/*",
+				"*://*.tidal.com/*",
+				"*://*.bandcamp.com/*",
+				"*://*.play.pocketcasts.com/*",
+				"*://*.play.google.com/*",
+				"*://*.play.spotify.com/*",
+				"*://*.player.spotify.com/*",
+				"*://*.open.spotify.com/*",
+				"*://*.soundcloud.com/*",
+				"*://*.music.yandex.ru/*",
+				"*://*.vk.com/*",
+				"*://*.radio.yandex.ru/*",
+				"*://*.deezer.com/*",
+				"*://*.overcast.fm/*",
+				"*://*.app.pluralsight.com/*",
+				"*://*.music.amazon.com/*",
+				"*://*.music.amazon.de/*",
+				"*://*.music.amazon.co.uk/*",
+				"*://*.cbcmusic.ca/*",
+				"*://*.mixcloud.com/*",
+				"*://*.hypem.com/*",
+				"*://*.netflix.com/*",
+				"*://*.tunein.com/*",
+				"*://play.pocketcasts.com/*",
+				"*://*.di.fm/*",
+				"*://*.udemy.com/*"
+			],
+			"js": ["index.js"]
+		}
+	]
+}

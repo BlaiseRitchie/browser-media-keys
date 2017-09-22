@@ -3,9 +3,7 @@ var hotkeyManager = require("./lib/hotkeyManager");
 var pageWorkerManager = require("./lib/pageWorkerManager");
 
 //attach content scripts to appropriate websites
-exports.main = function (options, callbacks) {
-    pageWorkerManager.Init();
-};
+pageWorkerManager.Init();
 
 exports.onUnload = function (reason) {
     hotkeyManager.UnregisterHotkeys();
